@@ -1,6 +1,7 @@
 # Credit Card Fraud Detection
 **MSDS 422 Final Project**
-Andrea Scherben, Shelagh Haney, Ryenn McAdory | Northwestern University
+Northwestern University
+Andrea Scherben, Shelagh Haney, Ryenn McAdory 
 
 ## Overview
 Machine learning pipeline to detect fraudulent credit card transactions in real time using a dataset of 284,807 transactions (only 0.173% fraud).
