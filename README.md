@@ -1,8 +1,6 @@
 # Credit Card Fraud Detection
-**MSDS 422 Final Project**
-
-Northwestern University
-
+### **MSDS 422 Final Project**
+#### Northwestern University
 Andrea Scherben, Shelagh Haney, Ryenn McAdory 
 
 ## Overview
