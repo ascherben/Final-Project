@@ -1,7 +1,7 @@
 # MSDS422 Final Project - Credit Card Fraud Detection
 Northwestern University
 
-**Overview:** A machine-learning pipeline to detect fraudulent credit card transactions in near real-time.
+A machine-learning pipeline to detect fraudulent credit card transactions in near real-time.
 
 ## Team
 Andrea Scherben, Shelagh Haney, Ryenn McAdory 
