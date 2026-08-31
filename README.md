@@ -1,6 +1,8 @@
 # MSDS422 Final Project - Credit Card Fraud Detection
 Northwestern University
 
+**Overview:** A machine-learning pipeline to detect fraudulent credit card transactions in near real-time.
+
 ## Team
 Andrea Scherben, Shelagh Haney, Ryenn McAdory 
 
@@ -23,7 +25,7 @@ Credit Card Fraud Detection dataset (Kaggle) - (https://www.kaggle.com/datasets/
 - After threshold tuning (0.159), KNN caught 88.8% of fraud while flagging only 64 legitimate transactions in the 56,962-transaction test set
 
 ## Tools
-Python 3 · Google Colab · scikit-learn · pandas · NumPy · Matplotlib · Seaborn
+Python 3 · scikit-learn · pandas · NumPy · Matplotlib · Seaborn
 
 ## References
 - Kaggle Dataset: Machine Learning Group – ULB. “Credit Card Fraud Detection.” https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
