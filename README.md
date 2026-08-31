@@ -1,16 +1,14 @@
-# Credit Card Fraud Detection
-### **MSDS 422 Final Project**
-#### Northwestern University
+# MSDS422 Final Project - Credit Card Fraud Detection
+Northwestern University
+
+## Team
 Andrea Scherben, Shelagh Haney, Ryenn McAdory 
 
-## Overview
-Machine learning pipeline to detect fraudulent credit card transactions in real time using a dataset of 284,807 transactions (only 0.173% fraud).
+## Problem
+Undetected fraud costs issuers money directly, plus chargeback and operational costs and damage to customer trust. On the flip side, overly aggressive fraud rules cause false declines that annoy legit customers and cost sales. The goal is a model-based approach that catches meaningfully more fraud than current rules while keeping false positives manageable.
 
 ## Dataset
-[Kaggle – Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
-- 284,807 transactions over 48 hours (September 2013)
-- 492 confirmed fraud cases
-- 28 PCA-anonymized features + Time + Amount
+Credit Card Fraud Detection dataset (Kaggle) - (https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) — 284,807 real transactions from European cardholders over a two-day window in September 2013. Only 492 (0.173%) are confirmed fraud, so this is an extremely imbalanced classification problem. Features are PCA-transformed (V1–V28) for confidentiality; only Time and Amount are in their original form.
 
 ## Models Compared
 | Model | Precision | Recall | PR-AUC |
@@ -23,7 +21,6 @@ Machine learning pipeline to detect fraudulent credit card transactions in real 
 ## Key Findings
 - **KNN** achieved the best balance of precision and recall (PR-AUC: 0.841)
 - After threshold tuning (0.159), KNN caught **88.8% of fraud** with minimal false alarms
-- Estimated net benefit: ~$10,300 on the test set alone
 
 ## Tools
 Python 3 · Google Colab · scikit-learn · pandas · NumPy · Matplotlib · Seaborn
