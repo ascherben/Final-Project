@@ -18,9 +18,8 @@ Credit Card Fraud Detection dataset (Kaggle) - (https://www.kaggle.com/datasets/
 | Logistic Regression | 0.056 | 0.908 | 0.714 |
 | Quadratic Discriminant Analysis | 0.061 | 0.878 | 0.144 |
 
-## Key Findings
-- **KNN** achieved the best balance of precision and recall (PR-AUC: 0.841)
-- After threshold tuning (0.159), KNN caught 88.8% of fraud while flagging only 64 legitimate transactions in the 56,962-transaction test set
+- **KNN** achieved the best balance of precision and recall at the default 0.5 threshold (PR-AUC: 0.841; Precision: 0.908; Recall: 0.806)
+- After tuning the decision threshold from 0.5 to 0.159, KNN caught 88.8% of fraud (87 of 98 fraud cases) while flagging 64 legitimate transactions for review.
 
 ## Tools
 Python 3 · scikit-learn · pandas · NumPy · Matplotlib · Seaborn
