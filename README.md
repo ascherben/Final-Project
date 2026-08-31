@@ -20,7 +20,7 @@ Credit Card Fraud Detection dataset (Kaggle) - (https://www.kaggle.com/datasets/
 
 ## Key Findings
 - **KNN** achieved the best balance of precision and recall (PR-AUC: 0.841)
-- After threshold tuning (0.159), KNN caught **88.8% of fraud** with minimal false alarms
+- After threshold tuning (0.159), KNN caught 88.8% of fraud while flagging only 64 legitimate transactions in the 56,962-transaction test set
 
 ## Tools
 Python 3 · Google Colab · scikit-learn · pandas · NumPy · Matplotlib · Seaborn
